@@ -3,43 +3,291 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bobine — Cités de Légende</title>
-<meta name="description" content="Official page for Bobine, the internal production and publishing tool behind the Cités de Légende history channel.">
+<title>Cités de Légende — documentaries about lost cities</title>
+<meta name="description" content="Cités de Légende is an independent history channel telling the stories of great cities that fell, vanished or were forgotten. In French and in English.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:title" content="Cités de Légende — documentaries about lost cities">
+<meta property="og:description" content="Cités de Légende is an independent history channel telling the stories of great cities that fell, vanished or were forgotten. In French and in English.">
+<meta property="og:image" content="https://ghazidenden.github.io/cites-de-legende/img/logo-512.png">
+<meta name="theme-color" content="#1f2328">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header>
-  <div class="wrap">
-    <h1>Cités de Légende</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="terms.html">Terms of Service</a>
-      <a href="privacy.html">Privacy Policy</a>
-    </nav>
-  </div>
+<body><header class="barre">
+  <a class="marque" href="index.html">
+    <img src="favicon-32.png" srcset="apple-touch-icon.png 2x" width="32" height="32" alt="">
+    <span>Cités de Légende</span>
+  </a>
+  <nav aria-label="Main">
+      <a href="index.html#films">Films</a>
+      <a href="index.html#making">How they're made</a>
+      <a href="index.html#bobine">Bobine</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+  </nav>
 </header>
 <main>
-  <div class="wrap">
-    <p class="lede">Bobine is the internal production and publishing tool behind
-    <strong>Cités de Légende</strong>, a history channel about lost and forgotten
-    cities.</p>
+  <section class="hero">
+    <img class="hero-logo" src="img/logo-512.png" width="512" height="512"
+         alt="Cités de Légende logo: a temple, a pyramid, a colosseum and a tower above an open book">
+    <div class="hero-texte">
+      <h1>Cités de Légende</h1>
+      <p class="accroche">Documentaries about the great cities of history that fell,
+      vanished, or were forgotten, told in French and in English.</p>
+      <p>Each film follows one city from its rise to the moment everything turned:
+      a siege, an earthquake, a conquest, a slow abandonment. Short episodes from
+      the same stories go out on TikTok, Instagram and Facebook.</p>
+      <ul class="comptes">
+        <li><a href="https://www.youtube.com/@Cit%C3%A9sdel%C3%A9gende">YouTube, in French</a></li>
+        <li><a href="https://www.youtube.com/@CitiesofLegends">YouTube, in English</a></li>
+        <li><a href="https://www.tiktok.com/@citesdelegende">TikTok</a></li>
+        <li><a href="https://www.instagram.com/citesdelegende/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/1225432133984430">Facebook</a></li>
+      </ul>
+    </div>
+  </section>
 
-    <p>It takes a project from research through narration, visuals, video
-    assembly and metadata, and publishes the finished films and short-form
-    videos to the channel's own accounts — currently YouTube, Facebook and
-    Instagram, with TikTok next.</p>
+  <section id="films" class="section">
+    <div class="section-tete">
+      <h2>The cities</h2>
+      <p>13 cities so far, 24 full-length films. Newest first.</p>
+    </div>
+    <div class="index-cites">
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=nSTFrO1NFgs" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/nSTFrO1NFgs/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>La Rochelle</h3>
+        <p class="contexte">France, 1627–1628</p>
+        <p>A Protestant port city holds out against the French crown for fourteen months of siege.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=nSTFrO1NFgs">28 000 rebelles, une cité affamée en un an : La Rochelle</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=lg30pl7Dk1A" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/lg30pl7Dk1A/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Lisbon</h3>
+        <p class="contexte">Portugal, 1755</p>
+        <p>An earthquake, a tsunami and a fire erase the capital of a global empire in a single morning.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=lg30pl7Dk1A">L&#x27;empire le plus pieux d&#x27;Europe brisé net : Lisbonne</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=Euv_3OTHdMg">200,000 citizens, the metropolis razed by noon: Lisbon</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=ZuWrW7smvLE" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/ZuWrW7smvLE/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Ayutthaya</h3>
+        <p class="contexte">Siam, 1351–1767</p>
+        <p>One of the largest cities in Asia, wiped off the map by an invading army.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=ZuWrW7smvLE">Ce géant d&#x27;Asie est rayé de la carte : l&#x27;oubli d&#x27;Ayutthaya</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=eWrlRHdvNJ0">Asia&#x27;s vast metropolis wiped off the map: Ayutthaya</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=AJzdpwsMouE" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/AJzdpwsMouE/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Carthage</h3>
+        <p class="contexte">North Africa, 814–146 BC</p>
+        <p>Rome&#x27;s great rival in the Mediterranean, besieged and razed to the ground.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=AJzdpwsMouE">Rivale de Rome, la grande cité est rasée au sol : Carthage</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=Lvd-JAoOzpo">Rome&#x27;s fiercest rival, the city razed to ash: Carthage</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=WhcmPUVyRag" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/WhcmPUVyRag/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Baghdad</h3>
+        <p class="contexte">Abbasid Caliphate, 762–1258</p>
+        <p>The Round City, larger than Rome at its height, until the Mongol sack.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=WhcmPUVyRag">Plus grande que Rome, la cité a disparu : Bagdag</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=_sfg_ogePY0">Larger than Rome, the round city vanished: Bagdag</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=De_64ATfr78" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/De_64ATfr78/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Florence</h3>
+        <p class="contexte">Italy, 15th–16th century</p>
+        <p>Europe&#x27;s richest republic and the long fall of its freedom.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=De_64ATfr78">La plus riche cité d&#x27;Europe privée de sa liberté : Florence</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=kuQ1AJKrmks">Europe&#x27;s richest republic stripped of freedom: Florence</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=_jun7IHQwRI" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/_jun7IHQwRI/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Mexico-Tenochtitlan</h3>
+        <p class="contexte">Mexico, 1521</p>
+        <p>A city of 200,000 people built in the middle of a lake, and what became of it.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=_jun7IHQwRI">200 000 habitants au milieu d&#x27;un lac : Mexico, 1521</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=YyvIbxo6Wh8">They Drained the Lake. Mexico Is Still Sinking: 1521</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=YtsWTflxHx0" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/YtsWTflxHx0/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Manhattan</h3>
+        <p class="contexte">New Amsterdam, 1664</p>
+        <p>Four English warships take the Dutch colony without firing a shot.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=YtsWTflxHx0">4 navires ont suffi pour capturer Manhattan sans tirer</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=VDmErKFrJEg">4 warships were enough to seize Manhattan without fire</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=OJswLat2wag" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/OJswLat2wag/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Timbuktu</h3>
+        <p class="contexte">Mali, 14th–16th century</p>
+        <p>Five centuries of European legend about a city of gold, and the real city of scholars.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=OJswLat2wag">500 ans de mensonge sur la fameuse cité d&#x27;or : Tombouctou</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=VUxhfKwv7Jg">500 years searching for a fake city of gold: Timbuktu</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=Web4e800MqE" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/Web4e800MqE/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Nineveh</h3>
+        <p class="contexte">Assyria, 7th century BC</p>
+        <p>The largest city in the world, vanished so completely that its site was forgotten.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=Web4e800MqE">La plus grande ville du monde a disparu : Ninive</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=ojPjNfWXtPk">The largest city on Earth vanished into thin air: Nineveh</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=JXcXRyi-_vg" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/JXcXRyi-_vg/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Petra</h3>
+        <p class="contexte">Nabataean kingdom</p>
+        <p>The rose-red city carved into the rock, hidden for centuries.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=JXcXRyi-_vg">PÉTRA : le secret jalousement gardé de la cité rose</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=6mDFm4AqdGI">PETRA: the hidden rose city that defied an empire</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=3LcnW0TFl4k" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/3LcnW0TFl4k/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Angkor</h3>
+        <p class="contexte">Khmer Empire, 9th–15th century</p>
+        <p>The largest pre-industrial city on Earth, swallowed by the forest.</p>
+        <ul class="versions">
+          <li><span class="langue">In French</span><a href="https://www.youtube.com/watch?v=3LcnW0TFl4k">La plus grande ville du monde a disparu : l&#x27;énigme d&#x27;Angkor</a></li><li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=1VvmAwef-O4">The world&#x27;s largest medieval city vanished: the Angkor enigma</a></li>
+        </ul>
+      </div>
+    </article>
+    <article class="cite">
+      <a class="cite-image" href="https://www.youtube.com/watch?v=QjuB1fGJ_jA" tabindex="-1" aria-hidden="true">
+        <img src="https://i.ytimg.com/vi/QjuB1fGJ_jA/hqdefault.jpg" alt="" loading="lazy" width="480" height="270">
+      </a>
+      <div class="cite-texte">
+        <h3>Samarkand</h3>
+        <p class="contexte">Timurid Empire, 14th century</p>
+        <p>The ruthless conqueror who built a paradise on the Silk Road.</p>
+        <ul class="versions">
+          <li><span class="langue">In English</span><a href="https://www.youtube.com/watch?v=QjuB1fGJ_jA">Samarcande : the ruthless tyrant who built paradise</a></li>
+        </ul>
+      </div>
+    </article>
+    </div>
+  </section>
 
-    <p>Bobine is a single-user tool, built and operated by the person behind
-    the channel. It is not offered as a public product or service to third
-    parties.</p>
+  <section id="making" class="section etroite">
+    <h2>How the films are made</h2>
+    <p>Every film goes through the same five stages, from a blank page to publication.</p>
+    <ol class="etapes">
+      <li><h3>Research and script</h3>
+      <p>A brief sets the city, the period and the angle. The narration is written
+      chapter by chapter, then reviewed and corrected by hand before anything else
+      happens.</p></li>
+      <li><h3>Narration</h3>
+      <p>The French script is recorded first. The English version is translated to the
+      same length, chapter by chapter, so that both languages share the same footage.</p></li>
+      <li><h3>Visuals</h3>
+      <p>Each sentence of narration becomes a shot. Every shot is described, generated,
+      checked against the period, and rejected and redone when it is not right.</p></li>
+      <li><h3>Editing</h3>
+      <p>Shots are cut to the narration's real timing and assembled into the final edit,
+      with chapter titles and transitions.</p></li>
+      <li><h3>Publication</h3>
+      <p>The full film goes to YouTube. Shorter episodes drawn from the same story go to
+      YouTube Shorts, TikTok, Instagram and Facebook.</p></li>
+    </ol>
+  </section>
 
-    <h2>Policies</h2>
-    <p>
-      <a href="terms.html">Terms of Service</a> ·
-      <a href="privacy.html">Privacy Policy</a>
-    </p>
-  </div>
+  <section id="bobine" class="section etroite">
+    <h2>Bobine, the production tool</h2>
+    <p>Bobine is the software the channel is made with. It follows each film through
+    the five stages above and publishes the finished videos to the channel's own
+    accounts. It runs on the creator's own computer, has a single user, and is not
+    offered to anyone else.</p>
+
+    <h3>What Bobine does with TikTok</h3>
+    <p>Bobine connects to the channel's TikTok account through TikTok Login Kit, and
+    publishes short episodes with the Content Posting API (Direct Post). For each short,
+    the creator chooses the video in Bobine, checks the caption, and sends it. Bobine
+    then shows whether TikTok accepted and published it.</p>
+    <ul class="usage">
+      <li><strong>user.info.basic</strong> confirms which account is connected before
+      anything is sent.</li>
+      <li><strong>video.upload</strong> and <strong>video.publish</strong> send a
+      finished video file from the creator's computer to that same account.</li>
+    </ul>
+    <p>Bobine never reads other accounts, viewers, comments or followers. The access token
+    stays on the creator's computer. The full details are in the
+    <a href="privacy.html">Privacy Policy</a> and the <a href="terms.html">Terms of
+    Service</a>.</p>
+  </section>
+
+  <section id="contact" class="section etroite">
+    <h2>Contact</h2>
+    <p>For questions about the channel, the films, or this website, write to
+    <a href="mailto:mobiup.studio@gmail.com">mobiup.studio@gmail.com</a>.</p>
+  </section>
 </main>
-<footer>Cités de Légende — contact: mobiup.studio@gmail.com</footer>
+<footer class="pied">
+  <img src="favicon-32.png" srcset="apple-touch-icon.png 2x" width="32" height="32" alt="">
+  <p>Cités de Légende is an independent history channel.
+  Contact: <a href="mailto:mobiup.studio@gmail.com">mobiup.studio@gmail.com</a></p>
+  <p><a href="terms.html">Terms of Service</a> &nbsp; <a href="privacy.html">Privacy Policy</a></p>
+</footer>
 </body>
 </html>
